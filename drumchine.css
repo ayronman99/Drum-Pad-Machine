@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+* { 
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+#drum-machine {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #2980b9;
+  height: 100vh;
+}
+
+.control-area {
+  border: 5px solid grey;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  width: 660px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  position: relative;
+
+}
+
+.control-area .pad-area {
+  width: 340px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.pad-area h2 {
+  width: 100%;
+  text-align:center;
+  font-family: Hanalei Fill, sans-serif;
+}
+
+.control-area .pad-area .drum-pad {
+  position: relative;
+  float: left;
+  text-align: center;
+  color: white;
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;  
+  font-size: 50px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.control-area .aux-pad {
+  display: inline-block;
+  width: 250px;
+  height: 280px;
+  margin: 10px;
+}
