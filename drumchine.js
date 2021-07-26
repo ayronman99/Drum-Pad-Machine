@@ -49,21 +49,12 @@ const pads = [
   const inActivePad = {
     color: 'white',
     backgroundColor: '#8e44ad',
-    width: '100px',
-    height: '80px',
-    marginRight: '10px',
-    marginTop: '5px',
-    fontSize: '50px'
+   
   }
   
   const activePad = {
     color: 'white',
     backgroundColor: '#1abc9c',
-    width: '100px',
-    height: '80px',
-    marginRight: '10px',
-    marginTop: '5px',
-    fontSize: '50px',
     opacity: '0.8',
     transform: 'scale(0.95)'
   }
